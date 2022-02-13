@@ -1,2 +1,2 @@
 # myLaraTemplate
-Laravel integrated with Gentella Dashboard
+Laravel integrated with Gentelella - Dashboard
