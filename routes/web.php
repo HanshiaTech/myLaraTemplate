@@ -21,4 +21,5 @@ use Illuminate\Support\Facades\Route;
 Route::get('index',[indexController::class,'index'])->name('dashboard.index');
 Route::get('index1',[indexController::class,'index1'])->name('dashboard.index1');
 Route::get('index2',[indexController::class,'index2'])->name('dashboard.index2');
+Route::get('generalform',[indexController::class,'generalform'])->name('dashboard.generalform');
 Route::resource('/',indexController::class);

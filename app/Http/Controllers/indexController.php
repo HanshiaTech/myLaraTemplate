@@ -23,8 +23,11 @@ class indexController extends Controller
     {
         return view('dashboard.index2');
     } 
-
-    /**
+    public function generalform()
+    {
+        return view('dashboard.generalform');
+    } 
+    /** 
      * Show the form for creating a new resource.
      *
      * @return \Illuminate\Http\Response

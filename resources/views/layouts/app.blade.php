@@ -21,4 +21,5 @@
         @include('includes.script')
 
         @stack('after-script')
-    </bo
+    </body>
+</html>
